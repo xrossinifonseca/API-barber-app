@@ -21,4 +21,4 @@ app.use("/auth", authRoute);
 app.use("/services", serviceRoute);
 app.use("/booking", bookingRoute);
 app.use("/openingHours", openingHoursRoute);
-app.listen(3000, () => console.log(`Servidor rodando na porta ${port}`));
+app.listen(port, () => console.log(`Servidor rodando na porta ${port}`));
